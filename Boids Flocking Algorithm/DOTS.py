@@ -19,7 +19,6 @@ class Boid:
         self.x += 1.5 * math.cos(self.angle)
         self.y += 1.5 * math.sin(self.angle)
 
-        # Bounce off the walls
         if self.x <= 0 or self.x >= screen_width:
             self.angle = math.pi - self.angle
         if self.y <= 0 or self.y >= screen_height:
@@ -29,7 +28,6 @@ class Boid:
         pygame.draw.circle(screen, self.color, (int(self.x), int(self.y)), 5)
 
     def adjust_velocity(self, dots):
-        # Find neighboring dots
         same_color_dots = []
         different_color_dots = []
         for dot in dots:
@@ -39,7 +37,6 @@ class Boid:
             elif 0 < distance <= 50 and dot.color != self.color:
                 different_color_dots.append(dot)
 
-        # Adjust velocity based on neighboring dots
         if same_color_dots:
             average_angle = sum(dot.angle for dot in same_color_dots) / len(same_color_dots)
             self.angle = average_angle
@@ -59,7 +56,6 @@ class Predator:
         self.x += 2.5 * math.cos(self.angle)
         self.y += 2.5 * math.sin(self.angle)
 
-        # Bounce off the walls
         if self.x <= 0 or self.x >= screen_width:
             self.angle = math.pi - self.angle
         if self.y <= 0 or self.y >= screen_height:
@@ -69,7 +65,6 @@ class Predator:
             if dot != self:
                 distance = math.sqrt((self.x - dot.x) ** 2 + (self.y - dot.y) ** 2)
                 if distance < 50 and dot.color == (255, 192, 203):
-                    # Calculate avoidance vector
                     dx = self.x - dot.x
                     dy = self.y - dot.y
                     length = math.sqrt(dx ** 2 + dy ** 2)

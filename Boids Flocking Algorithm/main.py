@@ -2,7 +2,6 @@ import pygame
 import sys
 import random
 import DOTS
-import math
 
 # Initialize Pygame
 pygame.init()
@@ -32,23 +31,17 @@ while running:
         if event.type == pygame.QUIT:
             running = False
         elif event.type == pygame.MOUSEBUTTONDOWN:
-            if event.button == 1:  # Left mouse button
-                # Get mouse position
+            if event.button == 1:
                 mouse_x, mouse_y = pygame.mouse.get_pos()
-                # Create a new blue dot at mouse position
                 new_boid = DOTS.Boid(mouse_x, mouse_y, BLUE)
                 dots.append(new_boid)
-            elif event.button == 3:  # Right mouse button
-                # Get mouse position
+            elif event.button == 3:
                 mouse_x, mouse_y = pygame.mouse.get_pos()
-                # Create a new green dot at mouse position
                 new_boid = DOTS.Boid(mouse_x, mouse_y, GREEN)
                 dots.append(new_boid)
         elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_SPACE:  # Create a stationary red dot
-                # Get mouse position
+            if event.key == pygame.K_SPACE:
                 mouse_x, mouse_y = pygame.mouse.get_pos()
-                # Create a new stationary red dot at mouse position
                 dot_radius = random.uniform(10,50)
                 new_obstacle = DOTS.Obstacle(mouse_x, mouse_y, PINK, dot_radius)
                 dots.append(new_obstacle)
