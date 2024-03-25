@@ -2,6 +2,7 @@ import pygame
 import sys
 import random
 import DOTS
+import math
 
 # Initialize Pygame
 pygame.init()
