@@ -1,0 +1,7 @@
+/main.spec
+/dist/
+/build/
+/Boids Flocking Algorithm/build/
+/Boids Flocking Algorithm/dist/
+/Boids Flocking Algorithm/main.spec
+/.venv/
