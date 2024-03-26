@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d194e21-c1a3-44ac-9a53-cdb99ed93535" name="Changes" comment="Added executable file updated" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2e5ahiOoq7oLdFMxijyDjh6o08p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.Avoid.executor": "Run",
+    "Python.Boids.executor": "Run",
+    "Python.DOTS.executor": "Run",
+    "Python.Shapes.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/CODING/Python/python.exe",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Topic 2_Boids flocking algorithm" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Topic 2_Boids flocking algorithm" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="PythonConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d194e21-c1a3-44ac-9a53-cdb99ed93535" name="Changes" comment="" />
+      <created>1711197013927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711197013927</updated>
+    </task>
+    <task id="LOCAL-00001" summary="updated code, currently just creating dots that either move or don't">
+      <option name="closed" value="true" />
+      <created>1711285073827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711285073827</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated code, added avoidance, predators, obstacles">
+      <option name="closed" value="true" />
+      <created>1711289077837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711289077837</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Got the boids to work relatively well">
+      <option name="closed" value="true" />
+      <created>1711369654173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711369654173</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Got the boids to work relatively well">
+      <option name="closed" value="true" />
+      <created>1711370754414</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711370754414</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Got the boids to work relatively well">
+      <option name="closed" value="true" />
+      <created>1711370764927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711370764927</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added setup file">
+      <option name="closed" value="true" />
+      <created>1711372758530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711372758530</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Improved the cohesion and movement of the boids">
+      <option name="closed" value="true" />
+      <created>1711443773208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711443773208</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added executable file">
+      <option name="closed" value="true" />
+      <created>1711447268912</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711447268912</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added executable file updated">
+      <option name="closed" value="true" />
+      <created>1711448488700</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711448488700</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated code, currently just creating dots that either move or don't" />
+    <MESSAGE value="updated code, added avoidance, predators, obstacles" />
+    <MESSAGE value="Got the boids to work relatively well" />
+    <MESSAGE value="added setup file" />
+    <MESSAGE value="Improved the cohesion and movement of the boids" />
+    <MESSAGE value="Added executable file" />
+    <MESSAGE value="Added executable file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added executable file updated" />
+  </component>
+</project>
