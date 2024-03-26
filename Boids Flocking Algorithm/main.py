@@ -19,8 +19,6 @@ BLUE = (0, 0, 255)
 GREEN = (0, 255, 0)
 PINK = (255, 192, 203)
 
-points = [(200, 400), (400, 200), (600, 400)]
-
 # List to hold all dots
 dots = []
 
@@ -57,6 +55,8 @@ while running:
 
     # Update dots
     for dot in dots:
+        dot.limits(screen_width, screen_height)
+        dot.behaviour(dots)
         dot.update(dots)
 
     # Draw everything
