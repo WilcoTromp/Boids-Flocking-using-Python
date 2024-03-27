@@ -14,3 +14,8 @@ space to place random sized obstacles
 'b' to place dot sized obstacles
 'p' to place predators
 ```
+# References:
+```
+Github 1
+Github 2
+```
