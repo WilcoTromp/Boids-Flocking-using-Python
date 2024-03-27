@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d194e21-c1a3-44ac-9a53-cdb99ed93535" name="Changes" comment="Added executable file updated">
-      <change afterPath="$PROJECT_DIR$/Boids Flocking Algorithm/Flocking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boids Flocking Algorithm/Flocking.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3d194e21-c1a3-44ac-9a53-cdb99ed93535" name="Changes" comment="Updated exe file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boids Flocking Algorithm/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711448743108</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated exe file">
+      <option name="closed" value="true" />
+      <created>1711521698452</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711521698452</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,6 +189,7 @@
     <MESSAGE value="Improved the cohesion and movement of the boids" />
     <MESSAGE value="Added executable file" />
     <MESSAGE value="Added executable file updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added executable file updated" />
+    <MESSAGE value="Updated exe file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated exe file" />
   </component>
 </project>
