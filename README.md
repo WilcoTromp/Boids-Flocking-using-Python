@@ -15,6 +15,11 @@ keyboard button 'b' to place dot sized obstacles
 keyboard button 'p' to place predators
 keyboard button 'q' to quit
 ```
+# Tips
+```
+Do not place boids or predators on obstacles (the program crashes)
+Do not place to many boids at once (the program crashes)
+```
 # References:
 - https://github.com/jackaperkins/boids.git
 - https://github.com/Josephbakulikira/simple-Flocking-simulation-python-pygame.git
