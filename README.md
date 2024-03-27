@@ -17,6 +17,8 @@ keyboard button 'q' to quit
 ```
 # Tips
 ```
+When downloading the exe file, windows might not want to run it, just click more info and then run anyway
+  Or allow it through you anti-virus program using exceptions
 Do not place boids or predators on obstacles (the program crashes)
 Do not place to many boids at once (the program crashes)
 ```
