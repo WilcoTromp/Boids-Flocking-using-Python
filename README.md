@@ -2,20 +2,24 @@
 
 # Instructions
 ```
-1. copy the two python files into the same python project
-  (I used pycharm to create this)
-2. run the 'main.py' script.
+1. Download the Flocking.exe file
+2. Run the Flocking.exe file
+3. use the controls below
 ```
 # Controls
 ```
 left click to place blue dots
 right click to place green dots
-space to place random sized obstacles
-'b' to place dot sized obstacles
-'p' to place predators
+spacebar to place random sized obstacles
+keyboard button 'b' to place dot sized obstacles
+keyboard button 'p' to place predators
+keyboard button 'q' to quit
+```
+# Tips
+```
+Do not place boids or predators on obstacles (the program crashes)
+Do not place to many boids at once (the program crashes)
 ```
 # References:
-```
-Github 1
-Github 2
-```
+- https://github.com/jackaperkins/boids.git
+- https://github.com/Josephbakulikira/simple-Flocking-simulation-python-pygame.git
